@@ -1,0 +1,25 @@
+from django.db import models
+
+# Create your models here.
+class Destination(models.Model):
+    url=models.CharField(max_length=200)
+    w1=models.CharField(max_length=200)
+    f1=models.IntegerField(default=0)
+    w2=models.CharField(max_length=200)
+    f2=models.IntegerField(default=0)
+    w3=models.CharField(max_length=200)
+    f3=models.IntegerField(default=0)
+    w4=models.CharField(max_length=200)
+    f4=models.IntegerField(default=0)
+    w5=models.CharField(max_length=200)
+    f5=models.IntegerField(default=0)
+    w6=models.CharField(max_length=200)
+    f6=models.IntegerField(default=0)
+    w7=models.CharField(max_length=200)
+    f7=models.IntegerField(default=0)
+    w8=models.CharField(max_length=200)
+    f8=models.IntegerField(default=0)
+    w9=models.CharField(max_length=200)
+    f9=models.IntegerField(default=0)
+    w91=models.CharField(max_length=200)
+    f91=models.IntegerField(default=0)

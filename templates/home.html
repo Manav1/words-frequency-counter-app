@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2 style="margin: 20px;"  >Frequency Counter App</h2>
+<br>
+<form autocomplete="off" style="margin: 20px;" class="form-horizontal" action="result" method="POST">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="url"><h4>Url:</h4></label>
+        <input type="text" class="form-control" placeholder="Enter URL" name="url">
+      </div>
+    <button type="submit" class="btn btn-success btn-lg">Submit</button>
+</form>
+
+{% endblock %}

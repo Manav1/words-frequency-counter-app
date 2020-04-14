@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h3>Input URL: <span style="color: rgb(99, 113, 240)" >{{url}}</span> </h3>
+<br>
+{% if alr == 0 %}
+    <center><h2 style="color: rgb(236, 99, 99)">Freshly Processed!</h2></center>
+    <br>
+{% endif %}
+{% if alr == 1 %}
+    <center><h2 style="color: rgb(236, 99, 99)">Found in database!</h2></center>
+    <br>
+{% endif %}    
+<h3>1st: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w1}} :</span> <span style="color: rgb(236, 99, 99)">{{f1}}</span></h3>
+<h3>2nd: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w2}} :</span> <span style="color: rgb(236, 99, 99)">{{f2}}</span></h3>
+<h3>3rd: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w3}} :</span> <span style="color: rgb(236, 99, 99)">{{f3}}</span> </h3>
+<h3>4th: &nbsp &nbsp<span style="color: #6371f0">{{w4}} :</span> <span style="color: rgb(236, 99, 99)">{{f4}}</span></h3>
+<h3>5th: &nbsp &nbsp <span style="color: rgb(99, 113, 240)">{{w5}} :</span> <span style="color: rgb(236, 99, 99)">{{f5}}</span></h3>
+<h3>6th: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w6}} :</span> <span style="color: rgb(236, 99, 99)">{{f6}}</span></h3>
+<h3>7th: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w7}} :</span> <span style="color: rgb(236, 99, 99)">{{f7}}</span></h3>
+<h3>8th: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w8}} :</span> <span style="color: rgb(236, 99, 99)">{{f8}}</span></h3>
+<h3>9th: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w9}} :</span> <span style="color: rgb(236, 99, 99)">{{f9}}</span></h3>
+<h3>10th: &nbsp &nbsp<span style="color: rgb(99, 113, 240)">{{w91}} :</span> <span style="color: rgb(236, 99, 99)">{{f91}}</span></h3>
+{% endblock %}

@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mhfoghyd',
         'USER': 'mhfoghyd',
-        'PASSWORD': 'v8e3wIVbHuWDOxWWD51-xEZvFQN40cut',
+        'PASSWORD': '',
         'HOST': 'drona.db.elephantsql.com',
         'PORT': '5432'
     }
